@@ -1,0 +1,17 @@
+name: Verify source edition
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  macos-native:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Configure isolated build
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON
+      - name: Build processors, native formats and tests
+        run: cmake --build build --parallel 2
+      - name: Offline processor and explicit-local native format tests
+        run: ctest --test-dir build --output-on-failure

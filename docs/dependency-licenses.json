@@ -1,0 +1,55 @@
+{
+  "JUCE": {
+    "version": "8.0.16-security",
+    "commit": "ea77444750de45e036e0279bb0291144bf8e3688",
+    "archiveSha256": "79181e00e8511c837983478f561db082ed08028d60c53a0af8ac85ea220299da",
+    "license": "AGPL-3.0-only selected; commercial alternative not used"
+  },
+  "preservedLicenses": [
+    {
+      "file": "LICENSES/AudioUnitSDK-APACHE-2.0.txt",
+      "upstreamPath": "modules/juce_audio_plugin_client/AU/AudioUnitSDK/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "LICENSES/VST3-SDK-MIT.txt",
+      "upstreamPath": "modules/juce_audio_processors_headless/format_types/VST3_SDK/LICENSE.txt",
+      "sha256": "d6115b263faa1cdf8c7372d70889c833dde1cec95252e7ee93e4f7d599ec96ca"
+    },
+    {
+      "file": "LICENSES/FLAC-LICENSE.txt",
+      "upstreamPath": "modules/juce_audio_formats/codecs/flac/Flac Licence.txt",
+      "sha256": "123926094aa97c30e346c23a12a453b7063c56e6c414e342dd5ae0fea13bd77d"
+    },
+    {
+      "file": "LICENSES/Ogg-Vorbis-LICENSE.txt",
+      "upstreamPath": "modules/juce_audio_formats/codecs/oggvorbis/Ogg Vorbis Licence.txt",
+      "sha256": "62d5ce5c59484dc99e462ec8f815bfc76f64a2e4759500c14beaf3772a7d1181"
+    },
+    {
+      "file": "LICENSES/JPEG-LICENSE.txt",
+      "upstreamPath": "modules/juce_graphics/image_formats/jpglib/README",
+      "sha256": "8802105e93b079f950844e412daab05156b5ef30acc6cbd0a59a287e6cd6cb7d"
+    },
+    {
+      "file": "LICENSES/PNG-LICENSE.txt",
+      "upstreamPath": "modules/juce_graphics/image_formats/pnglib/LICENSE",
+      "sha256": "bf5e22b9dce8464064ae17a48ea1133c3369ac9e1d80ef9e320e5219aa14ea9b"
+    },
+    {
+      "file": "LICENSES/ZLIB-LICENSE.txt",
+      "upstreamPath": "modules/juce_core/zip/zlib/README",
+      "sha256": "365db9b693fda6c66ddd97d81ae3eb17be32c890909553973a77439d85900494"
+    },
+    {
+      "file": "LICENSES/HARFBUZZ-LICENSE.txt",
+      "upstreamPath": "modules/juce_graphics/fonts/harfbuzz/COPYING",
+      "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+    },
+    {
+      "file": "LICENSES/SHEENBIDI-LICENSE.txt",
+      "upstreamPath": "modules/juce_graphics/unicode/sheenbidi/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ]
+}
